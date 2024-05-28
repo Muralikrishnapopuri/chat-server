@@ -8,7 +8,7 @@ const app=express();
 app.use(express.json());
 
 //----database connection-----
-const connection = process.env.MONGODB_URL;
+const connection = "mongodb+srv://muralikrishna:muralikrishna@cluster0.ab3upmg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 mongoose.connect(connection).then(
     () => console.log("MongoDB connected...")
 );
