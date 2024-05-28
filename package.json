@@ -1,0 +1,27 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "users can chat after complete their registration and they can be able to login for chat with existing users.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "keywords": [
+    "latest",
+    "chatting",
+    "website",
+    "telugu",
+    "chating",
+    "app",
+    "latest."
+  ],
+  "author": "Popuri.Murali Krishna",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.1"
+  }
+}
