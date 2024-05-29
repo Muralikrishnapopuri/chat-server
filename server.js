@@ -12,8 +12,8 @@ app.use(express.json());
 //---frontend can make requests by cors ---
 app.use(cors({origin:"*"}));
 //----database connection-----
-const connection = process.env.MONGODB_URL;
-mongoose.connect(connection).then(
+
+mongoose.connect("mongodb+srv://muralikrishna:muralikrishna@cluster0.ab3upmg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(
     () => console.log("MongoDB connected...")
 );
 //----routes & operations--------  
