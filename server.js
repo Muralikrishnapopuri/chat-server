@@ -87,7 +87,7 @@ app.get('/myprofile',middileware,async(req,res) =>{
 })
 
 //----port----
-// const PORT = process.env.PORT;
-app.listen(2044,()=>{
-    console.log(`Server Started... : http://127.0.0.1:2044`)
+const PORT = process.env.PORT;
+app.listen(PORT,()=>{
+    console.log(`Server Started... : http://127.0.0.1:${PORT}`)
 });
